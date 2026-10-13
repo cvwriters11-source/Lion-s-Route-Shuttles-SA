@@ -1,0 +1,39 @@
+# Dependencies and build output
+node_modules/
+dist/
+dist-ssr/
+
+# Environment files (keep the example tracked)
+.env
+.env.local
+.env.*.local
+.env.*
+*.local
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+.idea/
+
+# Local tool / temp folders
+.vite/
+.cache/
+.temp/
+tmp/
+supabase/.temp/
+supabase/.branches/
+
+# Root-level scratch screenshots (docs/screenshots/ and public/assets/ are tracked)
+/*.png
+/*.jpg
+/*.jpeg
